@@ -1,5 +1,5 @@
 # 697
-run the review.ipynb file for the temp demo. It is just a task of the class.
+
 ### Our dataset is EUVP,UIEB and mix dataset
 We can get offical EUVP dataset from https://irvlab.cs.umn.edu/resources/euvp-dataset
 
@@ -12,13 +12,16 @@ The mix dataset can be found in this project
 
 
 ### The role of each folder
+697-for_peer_review: run the review.ipynb file for the temp demo. It is just a task of the class.
+
+
 Evaluation folder contains the evaluation function, PSNR SSIM and UIQM
 
 
 Gui folder contains the GUI.py, we can use it to interactive with others
 
 
-model contains the trained model
+model contains the pre-trained model
 
 
 We can found some test results in the test_result folder. We use EUVP offical test dataset for 9 models( Two different versions of the three subsets, two different versions of the mix dataset, and unpaired）
